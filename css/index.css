@@ -1,0 +1,169 @@
+:root {
+	scroll-behavior: smooth;
+}
+
+.navbar-brand {
+	font-family: "Cherry Swash";
+	font-size: 40px;
+	cursor: default;
+}
+
+.navbar-toggler {
+	background-color: white;
+}
+
+.navbar-dark .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(76, 151, 162, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+nav {
+	background-color: #4d98a4;
+}
+
+.breadcrumb {
+	background-color: #4d98a4;
+}
+
+nav ul li a {
+	color: #dce3e4;
+	font-size: 18px;
+}
+
+nav ul li a:hover {
+	color: white;
+}
+
+nav div ul .active {
+	color: white;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+	color: #dce3e4;
+}
+
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+}
+
+.carousel-inner div h1 {
+	color: #e4e4e4;
+}
+
+.carousel-caption {
+	bottom: 30%;
+}
+
+.carousel-caption button {
+	border: 3px solid #afb1b4;
+	color: #e4e4e4;
+	width: 24%;
+	font-size: 22px;
+	border-radius: 5px;
+}
+
+.carousel-caption button:hover{
+	color: #ffffff;
+	background-color: rgba(175, 177, 180, 0.4);
+	transition: all 0.4s ease 0s; 
+}
+
+#exploring-and-learning p:first-child {
+	padding-top: 5%;
+	font-size: 30px;
+}
+
+#images {
+	margin: 5% 20% ;
+}
+
+#images img {
+	max-width: 50px;
+	height: auto;
+}
+
+#about-me {
+	background-color: #00d089;
+}
+
+#about-me > div > div {
+	margin-left: 3%;
+}
+
+#name-of-customer {
+	font-size: 18px;
+	font-weight: bold;
+	color: #e4e4e4;
+}
+
+#quotation-marks {
+  font-size: 80px;
+  font-family: "Helvetica";
+  color: rgba(255, 255, 255, 0.2);
+  line-height: 0;
+  width: 0px;
+  height: 0px;
+  -moz-transform: matrix( -4.35202320282641,0,0,-4.33813744317516,0,0);
+  -webkit-transform: matrix( -4.35202320282641,0,0,-4.33813744317516,0,0);
+  -ms-transform: matrix( -4.35202320282641,0,0,-4.33813744317516,0,0);
+  position: relative;
+  margin-left: 22px;
+}
+
+#about-me div:last-child {
+	font-size: 18px;
+	line-height: 1.8;
+}
+
+#contact-us {
+	background-image: url(../img/map.jpg);
+	background-position: center;
+	background-size: cover;
+	min-height: 516px;
+}
+
+#background {
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.85);
+	height: 430px;
+	width: 430px;
+	opacity: 1;
+}
+
+#background > form {
+	margin: 70px 0px 0px 0px;
+}
+
+#background input {
+	width: 270px;
+	height: 34px;
+	border: 1px solid #d8d8d8;
+	color: #bfc0c3;
+}
+
+
+textarea {
+	resize: none;
+	height: 80px;
+	width: 270px;
+	border-color: #d8d8d8;
+	color: #bfc0c3;
+}
+
+form > button {
+	border: none;
+	padding: 0;
+	background: transparent;
+	width: 66px;
+	cursor: pointer;
+}
+
+::placeholder {
+	color: #bfc0c3;
+}
+
+#copyright {
+	background-color: #00d089;
+	color: #ffffff;
+	font-family: "Helvetica";
+	font-size: 18px;
+}
