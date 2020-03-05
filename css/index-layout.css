@@ -24,6 +24,20 @@
     nav ul li a {
         font-size: 15px;
     }
+
+    #exploring-and-learning p:first-child {
+        font-size: 24px;
+    }
+
+    #exploring-and-learning p:not(:first-child) {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    #about-me div:last-child {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 711px) {
@@ -42,6 +56,14 @@
     .carousel-indicators {
         margin-bottom: 10px;
     }
+
+    #exploring-and-learning p:first-child {
+        font-size: 23px;
+    }
+
+    #exploring-and-learning p:not(:first-child) {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 597px) {
@@ -52,6 +74,26 @@
     .carousel-caption button {
         font-size: 11px;
     }
+
+    #exploring-and-learning p:first-child {
+        font-size: 22px;
+    }
+
+    #about-me div:first-child img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #quotation-marks {
+        font-size: 60px;
+        margin-left: 5px;
+    }
+
+    #about-me div:last-child {
+        font-size: 12px;
+    }
+
+
 }
 
 @media (max-width: 511px) {
@@ -73,6 +115,15 @@
     .carousel-indicators li {
         width: 8px;
         height: 8px;
+    }
+
+    #exploring-and-learning p:first-child {
+        font-size: 19px;
+    }
+
+    #images img {
+        max-width: 35px;
+        height: 35px;
     }
 }
 
@@ -110,6 +161,15 @@
         width: 6px;
         height: 6px;
     }
+
+    #exploring-and-learning p:first-child {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    #exploring-and-learning p:not(:first-child) {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -129,9 +189,22 @@
     .carousel-indicators {
         margin-bottom: 5px;
     }
+
+    #exploring-and-learning p:first-child {
+        font-size: 13px;
+    }
+
+    #images img {
+        max-width: 25px;
+        height: 25px;
+    }
 }
 
 @media (max-width: 342px) {
+    .carousel-caption {
+        bottom: 16%;
+    }
+
     .carousel-caption button {
         padding-left: 2px;
         padding-right: 2px;
