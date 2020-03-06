@@ -93,7 +93,9 @@
         font-size: 12px;
     }
 
-
+    #copyright {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 511px) {
@@ -124,6 +126,25 @@
     #images img {
         max-width: 35px;
         height: 35px;
+    }
+
+    #background {
+        height: 350px;
+        width: 350px;
+    }
+
+    #background > form {
+        margin: 55px 0px 0px 0px;
+    }
+
+    #background input {
+        width: 200px;
+        height: 25px;
+    }
+
+    textarea {
+        width: 200px;
+        height: 80px;
     }
 }
 
@@ -170,6 +191,29 @@
     #exploring-and-learning p:not(:first-child) {
         font-size: 10px;
     }
+
+    #background {
+        height: 300px;
+        width: 300px;
+    }
+
+    #background > form {
+        margin: 45px 0px 0px 0px;
+    }
+
+    #background input {
+        width: 180px;
+        height: 25px;
+    }
+
+    #background input[type="image"] {
+        width: 50px;
+    }
+
+    textarea {
+        width: 180px;
+        height: 80px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -197,6 +241,34 @@
     #images img {
         max-width: 25px;
         height: 25px;
+    }
+
+    #background {
+        height: 260px;
+        width: 260px;
+    }
+
+    #background > form {
+        margin: 40px 0px 0px 0px;
+    }
+
+    #background input {
+        width: 150px;
+        height: 20px;
+    }
+
+    #background input[type="image"] {
+        width: 40px;
+        margin: -10px 0px   0px 0px;
+    }
+
+    textarea {
+        width: 150px;
+        height: 80px;
+    }
+
+    #copyright {
+        font-size: 14px;
     }
 }
 
