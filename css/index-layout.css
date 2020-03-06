@@ -41,6 +41,11 @@
 }
 
 @media (max-width: 711px) {
+    .carousel-item > img {
+        height: 257px;
+        object-fit: cover;
+    }
+
     .carousel-inner div h1 {
         font-size: 25px;
     }
@@ -67,6 +72,10 @@
 }
 
 @media (max-width: 597px) {
+    .carousel-item > img {
+        height: 286px;
+    }
+
     .carousel-inner div h1 {
         font-size: 20px;
     }
@@ -244,8 +253,12 @@
     }
 
     #background {
-        height: 260px;
-        width: 260px;
+        height: 270px;
+        width: 270px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
     }
 
     #background > form {
@@ -253,17 +266,15 @@
     }
 
     #background input {
-        width: 150px;
-        height: 20px;
+        width: 160px;
     }
 
     #background input[type="image"] {
         width: 40px;
-        margin: -10px 0px   0px 0px;
     }
 
     textarea {
-        width: 150px;
+        width: 160px;
         height: 80px;
     }
 

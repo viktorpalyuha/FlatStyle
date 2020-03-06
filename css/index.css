@@ -96,17 +96,22 @@ nav div ul .active {
 }
 
 #quotation-marks {
-  font-size: 80px;
-  font-family: "Helvetica";
-  color: rgba(255, 255, 255, 0.2);
-  line-height: 0;
-  width: 0px;
-  height: 0px;
-  -moz-transform: matrix( -4.35202320282641,0,0,-4.33813744317516,0,0);
-  -webkit-transform: matrix( -4.35202320282641,0,0,-4.33813744317516,0,0);
-  -ms-transform: matrix( -4.35202320282641,0,0,-4.33813744317516,0,0);
-  position: relative;
-  margin-left: 22px;
+	font-size: 80px;
+	font-family: "Helvetica";
+	color: rgba(255, 255, 255, 0.2);
+	line-height: 0;
+	width: 0px;
+	height: 0px;
+	-moz-transform: matrix( -4.35202320282641,0,0,-4.33813744317516,0,0);
+	-webkit-transform: matrix( -4.35202320282641,0,0,-4.33813744317516,0,0);
+	-ms-transform: matrix( -4.35202320282641,0,0,-4.33813744317516,0,0);
+	position: relative;
+	margin-left: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 
 #about-me div:last-child {
