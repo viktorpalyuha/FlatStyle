@@ -56,6 +56,8 @@
 
     .carousel-caption button {
         font-size: 14px;
+        height: 29px;
+        width: 99px;
     }
 
     .carousel-indicators {
@@ -74,14 +76,6 @@
 @media (max-width: 597px) {
     .carousel-item > img {
         height: 286px;
-    }
-
-    .carousel-inner div h1 {
-        font-size: 20px;
-    }
-
-    .carousel-caption button {
-        font-size: 11px;
     }
 
     #exploring-and-learning p:first-child {
@@ -108,21 +102,6 @@
 }
 
 @media (max-width: 511px) {
-    .carousel-inner div h1 {
-        font-size: 15px;
-    }
-
-    .carousel-caption {
-        bottom: 23%;
-    }
-
-    .carousel-caption button {
-        font-size: 10px;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-top: 5px;
-    }
-
     .carousel-indicators li {
         width: 8px;
         height: 8px;
@@ -173,18 +152,11 @@
     }
 
     .carousel-inner div h1 {
-        font-size: 10px;
+        font-size: 23px;
     }
 
     .carousel-caption {
-        bottom: 23%;
-    }
-
-    .carousel-caption button {
-        font-size: 8px;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-top: 0px;
+        bottom: 27%;
     }
 
     .carousel-indicators li {
@@ -232,11 +204,14 @@
     .breadcrumb-item+.breadcrumb-item::before {
         padding-right: 3px;
     }
-    .carousel-caption {
-        bottom: 19%;
+
+    .carousel-inner div h1 {
+        font-size: 19px;
     }
+
     .carousel-caption button {
-        margin-top: -5px;
+        font-size: 14px;
+        height: 27px;
     }
 
     .carousel-indicators {
@@ -284,12 +259,14 @@
 }
 
 @media (max-width: 342px) {
-    .carousel-caption {
-        bottom: 16%;
+    .carousel-inner div h1 {
+        font-size: 18px;
     }
 
     .carousel-caption button {
-        padding-left: 2px;
-        padding-right: 2px;
+        width: 80px;
+        height: 23px;
+        padding: 0px 6px;
+        font-size: 12px;
     }
 }
