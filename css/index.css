@@ -142,7 +142,6 @@ nav div ul .active {
 	width: 270px;
 	height: 34px;
 	border: 1px solid #d8d8d8;
-	color: #bfc0c3;
 }
 
 
@@ -151,10 +150,9 @@ textarea {
 	height: 80px;
 	width: 270px;
 	border-color: #d8d8d8;
-	color: #bfc0c3;
 }
 
-form > button {
+#form > input[type="image"] {
 	border: none;
 	padding: 0;
 	background: transparent;

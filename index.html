@@ -123,17 +123,17 @@
 		<div class="d-flex align-items-center justify-content-center" id="contact-us">
 			<div id="inputs">
 					<div class="shadow d-flex align-items-center justify-content-center" id="background" disabled>
-						<form class="d-flex flex-column align-content-center" method="get" id="form">
+						<form class="d-flex flex-column align-content-center" method="POST" id="form">
 							<div class="form-group">
-							  <input class="p-2" type="text" id="name" placeholder="Name">
+							  <input class="p-2" name="name" type="text" id="name" placeholder="Name">
 							</div>						
 							<div class="form-group">
-							  <input class="p-2" type="email" id="email" placeholder="email address">
+							  <input class="p-2" name="email" type="email" id="email" placeholder="email address">
 							</div>
 							<div class="form-group">
-							  <textarea class="p-2" rows="5" id="message" placeholder="Message"></textarea>
+							  <textarea class="p-2" name="message" rows="5" id="message" placeholder="Message"></textarea>
 							</div>
-							<button class="align-self-center" form="form" type="submit" disabled><input class="img-fluid border-0 h-auto" type="image" name="submit" src="img/footer-button.png"></button>
+							<input class="align-self-center img-fluid border-0 h-auto" type="image" name="submit" value="SEND" src="img/footer-button.png">
 						</form>
 					</div>
 			</div>
